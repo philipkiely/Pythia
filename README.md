@@ -5,7 +5,7 @@ Bogdan Abaev && Philip Kiely
 PennApps Fall 2019
 
 
-Check out the [devpost](https://github.com/philipkiely/Pythia).
+Check out the [devpost](https://devpost.com/software/pythia-camera).
 
 ![Pythia Diagram](https://raw.githubusercontent.com/philipkiely/Pythia/master/images/PythiaCamera.jpg)
 

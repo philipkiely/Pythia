@@ -1,6 +1,11 @@
 # Pythia Camera
 
-Check out the [github](https://github.com/philipkiely/Pythia).
+Bogdan Abaev && Philip Kiely 
+
+PennApps Fall 2019
+
+
+Check out the [devpost](https://github.com/philipkiely/Pythia).
 
 ![Pythia Diagram](https://raw.githubusercontent.com/philipkiely/Pythia/master/images/PythiaCamera.jpg)
 

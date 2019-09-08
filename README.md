@@ -1,10 +1,8 @@
 # Pythia Camera
 
-PennApps Fall 2019
+Check out the [github](https://github.com/philipkiely/Pythia).
 
-Bogdan Abaev & Philip Kiely
-
-Check out the [devpost](https://devpost.com/software/pythia-camera).
+![Pythia Diagram](https://raw.githubusercontent.com/philipkiely/Pythia/master/images/PythiaCamera.jpg)
 
 ## Inspiration
 
@@ -29,14 +27,16 @@ At regular intervals:
 * Signs combined file
 * Sends file and metadata to AWS
 
+![Signing](https://raw.githubusercontent.com/philipkiely/Pythia/master/images/ChainedRSASignature.jpg)
+
 On AWS:
 * Verifies signature and adds server signature
 * Uses Rekognition to detect violence or other suspicious behavior
 * Uses Rekognition to detect the presence of people
 * If there are people with detectable faces, uses Rekognition to 
+* Uses SMS to notify the property owner about the suspicious activity and links a video clip
+![AWS](https://raw.githubusercontent.com/philipkiely/Pythia/master/images/AWSArchitecture.jpg)
 
-If anything out of the ordinary is suspected:
-* Uses Twilio to notify the property owner about the suspicious activity and links a video clip
 
 ## Challenges we ran into
 
